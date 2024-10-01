@@ -32,3 +32,13 @@ steps:
         echo hello
         echo world
 ```
+
+If this action doesn't work for you, take a look at the [official recommendation](https://github.com/microsoft/playwright-github-action) or use something like this
+
+```yaml
+steps:
+  - name: Run Playwright
+    uses: docker://mcr.microsoft.com/playwright:v1.47.2
+    with:
+      args: ./e2e/run.sh
+```
