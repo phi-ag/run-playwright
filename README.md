@@ -13,8 +13,11 @@ steps:
     uses: phi-ag/run-playwright@v0
     with:
       run: |
-        echo hello
-        echo world
+        corepack enable
+        corepack prepare --activate
+        pnpm config set store-dir .pnpm-store
+        pnpm install --frozen-lockfile
+        HOME=/root pnpm test:e2e
 ```
 
 Use a specific version, see [available image tags](https://mcr.microsoft.com/en-us/product/playwright/tags)
