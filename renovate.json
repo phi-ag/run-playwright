@@ -1,0 +1,25 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    ":semanticCommits",
+    "config:best-practices",
+    "group:monorepos",
+    "group:recommended"
+  ],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "fileMatch": ["^action\\.yml$"],
+      "matchStrings": ["default: (?<currentValue>.+)\\n"],
+      "packageNameTemplate": "mcr.microsoft.com/playwright",
+      "datasourceTemplate": "docker"
+    }
+  ],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest", "pinDigest"],
+      "matchCurrentVersion": "!/^0/",
+      "automerge": true
+    }
+  ]
+}
