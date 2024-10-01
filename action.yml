@@ -1,0 +1,36 @@
+name: phi.ag - Run Playwright
+description: Run Playwright container action
+author: phi.ag
+inputs:
+  version:
+    description: Playwright version
+    default: v1.47.2-noble@sha256:f640d04686ef8fcca228955dc73f36b86ccd2228eda488fb2b32f3f037639f09
+  run:
+    description: Commands to execute
+    required: true
+    type: string
+branding:
+  icon: play
+  color: orange
+runs:
+  using: composite
+  steps:
+    - name: Setup Playwright script
+      shell: bash
+      run: |
+        mkdir -p .playwright
+        echo "#!/usr/bin/env bash" > .playwright/run.sh
+        echo "set -euo pipefail" >> .playwright/run.sh
+        echo "${{ inputs.run }}" >> .playwright/run.sh
+        chmod +x .playwright/run.sh
+
+    - name: Run Playwright
+      shell: bash
+      run: |
+        set -eux
+        docker run --rm \
+        -e CI=true \
+        --workdir /github/workspace \
+        -v "${{ github.workspace }}":/github/workspace \
+        mcr.microsoft.com/playwright:${{ inputs.version }} \
+        .playwright/run.sh
