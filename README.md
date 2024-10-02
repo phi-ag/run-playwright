@@ -10,7 +10,7 @@ Run [Playwright](https://github.com/microsoft/playwright) container action
 ```yaml
 steps:
   - name: Run Playwright
-    uses: phi-ag/run-playwright@v0
+    uses: phi-ag/run-playwright@v1
     env:
       BASE_URL: https://example.com
     with:
@@ -26,7 +26,7 @@ Use a specific version, see [available image tags](https://mcr.microsoft.com/en-
 ```yaml
 steps:
   - name: Run Playwright
-    uses: phi-ag/run-playwright@v0
+    uses: phi-ag/run-playwright@v1
     env:
       BASE_URL: https://example.com
     with:
