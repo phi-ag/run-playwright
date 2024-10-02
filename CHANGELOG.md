@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/phi-ag/run-playwright/compare/v1.0.0...v1.1.0) (2024-10-02)
+
+
+### Features
+
+* forward environment and add input options ([e195a2e](https://github.com/phi-ag/run-playwright/commit/e195a2e43fee4baee4c4265039e668677bfdfb7e))
+
+
+### Miscellaneous Chores
+
+* always set HOME env var for firefox and improve usage examples ([700dac3](https://github.com/phi-ag/run-playwright/commit/700dac32659f3baac41fde5f0e6517477bb0089f))
+
 ## [1.0.0](https://github.com/phi-ag/run-playwright/compare/v0.0.2...v1.0.0) (2024-10-01)
 
 
