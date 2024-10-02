@@ -10,12 +10,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4
 
-      - name: Setup Playwright
+      - name: Run Playwright
         uses: ./
+        env:
+          TEST_ENV: hello from env
         with:
+          options: -e TEST_OPTION='hello from options'
           run: |
-            echo hello
-            echo world
+            echo hello world
+            echo ${TEST_ENV}
+            echo ${TEST_OPTION}
 
   ubuntu-with-version:
     runs-on: ubuntu-24.04
@@ -23,7 +27,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4
 
-      - name: Setup Playwright
+      - name: Run Playwright
         uses: ./
         with:
           version: v1.47.1
