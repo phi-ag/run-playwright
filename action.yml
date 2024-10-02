@@ -35,7 +35,7 @@ runs:
         docker run --rm \
           --workdir /github/workspace \
           -v "${{ github.workspace }}":/github/workspace \
-          -e CI=true ${ENV} \
+          -e CI=true -e HOME=/root ${ENV} \
           ${{ inputs.options }} \
           mcr.microsoft.com/playwright:${{ inputs.version }} \
           .run-playwright/run.sh

@@ -11,13 +11,14 @@ Run [Playwright](https://github.com/microsoft/playwright) container action
 steps:
   - name: Run Playwright
     uses: phi-ag/run-playwright@v0
+    env:
+      BASE_URL: https://example.com
     with:
       run: |
         corepack enable
         corepack prepare --activate
-        pnpm config set store-dir .pnpm-store
         pnpm install --frozen-lockfile
-        HOME=/root pnpm test:e2e
+        pnpm test:e2e
 ```
 
 Use a specific version, see [available image tags](https://mcr.microsoft.com/en-us/product/playwright/tags)
@@ -26,11 +27,12 @@ Use a specific version, see [available image tags](https://mcr.microsoft.com/en-
 steps:
   - name: Run Playwright
     uses: phi-ag/run-playwright@v0
+    env:
+      BASE_URL: https://example.com
     with:
       version: v1.47.2
       run: |
-        echo hello
-        echo world
+        echo hello world
 ```
 
 If this action doesn't work for you, take a look at the [official recommendation](https://github.com/microsoft/playwright-github-action) or use something like this
