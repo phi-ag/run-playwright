@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/phi-ag/run-playwright/compare/v1.1.1...v1.1.2) (2024-10-08)
+
+
+### Continuous Integration
+
+* one last renovate match string simplification ([7c5def5](https://github.com/phi-ag/run-playwright/commit/7c5def5dbff923bb1f0e33da35c45d93fb655570))
+
 ## [1.1.1](https://github.com/phi-ag/run-playwright/compare/v1.1.0...v1.1.1) (2024-10-08)
 
 
