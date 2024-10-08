@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.1.1](https://github.com/phi-ag/run-playwright/compare/v1.1.0...v1.1.1) (2024-10-08)
+
+
+### Documentation
+
+* update action version in readme ([6c95f6c](https://github.com/phi-ag/run-playwright/commit/6c95f6c95831a3579ef48c649e01b3dc7c37f5bc))
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout digest to eef6144 ([f34a57a](https://github.com/phi-ag/run-playwright/commit/f34a57ad77146932182a1e0b0523d8f5038c3186))
+* **deps:** update mcr.microsoft.com/playwright docker tag to v1.48.0 ([c000a8b](https://github.com/phi-ag/run-playwright/commit/c000a8b206613b4f0201b752b1b463eb490c5410))
+
+
+### Continuous Integration
+
+* even simpler renovate match string for playwright ([cf7b144](https://github.com/phi-ag/run-playwright/commit/cf7b1445a75574b4f128bde284153a707ba3461c))
+* fix renovate playwright ([86ab739](https://github.com/phi-ag/run-playwright/commit/86ab7391ba91da25df2780911a175057922335ef))
+
 ## [1.1.0](https://github.com/phi-ag/run-playwright/compare/v1.0.0...v1.1.0) (2024-10-02)
 
 
