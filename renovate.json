@@ -11,7 +11,7 @@
       "customType": "regex",
       "fileMatch": ["^action\\.yml$"],
       "matchStrings": [
-        "default: (?<currentValue>[^@\\s]+)(@(?<currentDigest>[^\\s]+))?\\s"
+        "default: (?<currentValue>[^@\\s]+)(@(?<currentDigest>[^\\s]+))?"
       ],
       "packageNameTemplate": "mcr.microsoft.com/playwright",
       "datasourceTemplate": "docker"
