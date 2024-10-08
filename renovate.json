@@ -10,7 +10,9 @@
     {
       "customType": "regex",
       "fileMatch": ["^action\\.yml$"],
-      "matchStrings": ["default: (?<currentValue>.+)\\n"],
+      "matchStrings": [
+        "default: (?<currentValue>[^@\\s]+)(@(?<currentDigest>sha256:[a-f0-9]+))?\\s"
+      ],
       "packageNameTemplate": "mcr.microsoft.com/playwright",
       "datasourceTemplate": "docker"
     }
