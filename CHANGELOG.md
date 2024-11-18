@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.4](https://github.com/phi-ag/run-playwright/compare/v1.1.3...v1.1.4) (2024-11-18)
+
+
+### Miscellaneous Chores
+
+* **deps:** update mcr.microsoft.com/playwright docker tag to v1.49.0 ([1da3759](https://github.com/phi-ag/run-playwright/commit/1da3759c870c876940e1facfa802798a60b90847))
+
 ## [1.1.3](https://github.com/phi-ag/run-playwright/compare/v1.1.2...v1.1.3) (2024-10-26)
 
 
