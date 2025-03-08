@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.9](https://github.com/phi-ag/run-playwright/compare/v1.1.8...v1.1.9) (2025-03-08)
+
+
+### Miscellaneous Chores
+
+* **deps:** update googleapis/release-please-action digest to a02a34c ([a322953](https://github.com/phi-ag/run-playwright/commit/a322953362ca06655ad4d158f924f0ea5de11729))
+
 ## [1.1.8](https://github.com/phi-ag/run-playwright/compare/v1.1.7...v1.1.8) (2025-03-06)
 
 
