@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.1.17](https://github.com/phi-ag/run-playwright/compare/v1.1.16...v1.1.17) (2025-08-20)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v5 ([05bb7f1](https://github.com/phi-ag/run-playwright/commit/05bb7f17fbc1fe1950a889bc6efcb326998c330c))
+* **deps:** update actions/checkout digest to 08eba0b ([f210ff3](https://github.com/phi-ag/run-playwright/commit/f210ff3d283e4f83d801803fe46ae6796fb7b05b))
+* **deps:** update googleapis/release-please-action digest to c2a5a2b ([f57ee93](https://github.com/phi-ag/run-playwright/commit/f57ee9300af1ea4f51c387c010cf2055d69bae1b))
+* **deps:** update mcr.microsoft.com/playwright docker tag to v1.55.0 ([e58306b](https://github.com/phi-ag/run-playwright/commit/e58306b5c3c4367c1bc20b1b7c56df59bb84d975))
+
 ## [1.1.16](https://github.com/phi-ag/run-playwright/compare/v1.1.15...v1.1.16) (2025-08-01)
 
 
