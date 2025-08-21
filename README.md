@@ -14,9 +14,12 @@ steps:
     env:
       BASE_URL: https://example.com
     with:
+      options: -v ${STORE_PATH}:${STORE_PATH}
       run: |
         corepack enable
         corepack prepare --activate
+
+        pnpm config set store-dir ${STORE_PATH}
         pnpm install --frozen-lockfile
         pnpm test:e2e
 ```
@@ -30,12 +33,12 @@ steps:
     env:
       BASE_URL: https://example.com
     with:
-      version: v1.47.2
+      version: v1.55.0-noble@sha256:b27e719ecbfef153e13fd24e8341736733bf2658b229677eb21ff57ff5d7fb29
       run: |
         echo hello world
 ```
 
-If this action doesn't work for you, take a look at the [official recommendation](https://github.com/microsoft/playwright-github-action) or use something like this
+If this action doesn't work for you take a look at the [official recommendation](https://github.com/microsoft/playwright-github-action) or use something like this
 
 ```yaml
 steps:
