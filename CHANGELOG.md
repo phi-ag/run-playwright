@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.18](https://github.com/phi-ag/run-playwright/compare/v1.1.17...v1.1.18) (2025-08-21)
+
+
+### Documentation
+
+* configure pnpm store path in example ([5a650d1](https://github.com/phi-ag/run-playwright/commit/5a650d1dbd98aab5a9979cf136bd0d80c308fc7b))
+
 ## [1.1.17](https://github.com/phi-ag/run-playwright/compare/v1.1.16...v1.1.17) (2025-08-20)
 
 
