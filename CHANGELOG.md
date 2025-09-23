@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.18](https://github.com/phi-ag/run-playwright/compare/v1.1.17...v1.1.18) (2025-09-23)
+
+
+### Documentation
+
+* configure pnpm store path in example ([5a650d1](https://github.com/phi-ag/run-playwright/commit/5a650d1dbd98aab5a9979cf136bd0d80c308fc7b))
+
+
+### Miscellaneous Chores
+
+* **deps:** update mcr.microsoft.com/playwright docker tag to v1.55.1 ([fc23ca4](https://github.com/phi-ag/run-playwright/commit/fc23ca40dfc18c634e94653d41753495979bc402))
+
 ## [1.1.17](https://github.com/phi-ag/run-playwright/compare/v1.1.16...v1.1.17) (2025-08-20)
 
 
