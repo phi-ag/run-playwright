@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.22](https://github.com/phi-ag/run-playwright/compare/v1.1.21...v1.1.22) (2025-12-02)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout digest to 8e8c483 ([182d17d](https://github.com/phi-ag/run-playwright/commit/182d17dec1030cf4337265a7306ac37c0ccc4485))
+
 ## [1.1.21](https://github.com/phi-ag/run-playwright/compare/v1.1.20...v1.1.21) (2025-11-25)
 
 
