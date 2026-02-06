@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.24](https://github.com/phi-ag/run-playwright/compare/v1.1.23...v1.1.24) (2026-02-06)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout digest to de0fac2 ([5b1542e](https://github.com/phi-ag/run-playwright/commit/5b1542ef89f22fab1ad04c4740c6b8a1edb60112))
+* **deps:** update mcr.microsoft.com/playwright docker tag to v1.58.2 ([ce96654](https://github.com/phi-ag/run-playwright/commit/ce9665456b501a161454e0078fc65f723acec995))
+
 ## [1.1.23](https://github.com/phi-ag/run-playwright/compare/v1.1.22...v1.1.23) (2026-01-31)
 
 
