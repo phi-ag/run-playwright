@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.26](https://github.com/phi-ag/run-playwright/compare/v1.1.25...v1.1.26) (2026-04-23)
+
+
+### Miscellaneous Chores
+
+* **deps:** update googleapis/release-please-action action to v5 ([10436be](https://github.com/phi-ag/run-playwright/commit/10436bee37b431aa97934350e77ae023244c6831))
+* **deps:** update googleapis/release-please-action digest to 5c625bf ([0009fd6](https://github.com/phi-ag/run-playwright/commit/0009fd698dfdb2124044516deca4d8305eb5d950))
+* **deps:** update mcr.microsoft.com/playwright docker tag to v1.59.1 ([63ee8a7](https://github.com/phi-ag/run-playwright/commit/63ee8a75102a0eebfe146e99d5d8ac57adeceb16))
+
 ## [1.1.25](https://github.com/phi-ag/run-playwright/compare/v1.1.24...v1.1.25) (2026-04-01)
 
 
