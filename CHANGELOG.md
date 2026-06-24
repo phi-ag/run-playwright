@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.28](https://github.com/phi-ag/run-playwright/compare/v1.1.27...v1.1.28) (2026-06-24)
+
+
+### Miscellaneous Chores
+
+* **deps:** update mcr.microsoft.com/playwright:v1.61.1-noble docker digest to 5b8f294 ([ccde9da](https://github.com/phi-ag/run-playwright/commit/ccde9da1f8e444f6c21bdbc23bc6f68c1b2fe1f9))
+
 ## [1.1.27](https://github.com/phi-ag/run-playwright/compare/v1.1.26...v1.1.27) (2026-06-23)
 
 
