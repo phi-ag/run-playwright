@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.1.30](https://github.com/phi-ag/run-playwright/compare/v1.1.29...v1.1.30) (2026-10-23)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency ubuntu to v26 ([b847cc2](https://github.com/phi-ag/run-playwright/commit/b847cc2d0315a4f71f8f9ea723f8b152a5898b27))
+* **deps:** update mcr.microsoft.com/playwright docker tag to v1.64.0 ([6edae37](https://github.com/phi-ag/run-playwright/commit/6edae371ce12624bb17f2abc235be5dde346ef0d))
+* **deps:** update mcr.microsoft.com/playwright docker tag to v1.64.1 ([71cad04](https://github.com/phi-ag/run-playwright/commit/71cad047d0338b35f9f6e0cff6eca84db55da699))
+* **deps:** update mcr.microsoft.com/playwright:v1.64.1-noble docker digest to 47b510d ([ff3043f](https://github.com/phi-ag/run-playwright/commit/ff3043fa14b287a45cf7b1d8bc4bee6f9814aa99))
+
 ## [1.1.29](https://github.com/phi-ag/run-playwright/compare/v1.1.28...v1.1.29) (2026-09-05)
 
 
